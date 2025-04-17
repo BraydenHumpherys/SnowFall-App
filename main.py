@@ -70,6 +70,7 @@ with tab2:
     ax.set_title(f'Time Series of Selected Variables ({selected_season} Season)')
     ax.set_xlabel('Time')
     ax.set_ylabel('Values')
+    plt.xticks(rotation=45)
     st.pyplot(fig)
 
 
